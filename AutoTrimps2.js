@@ -1,4 +1,4 @@
-var ATversion = 'Rabisu v5.1.0',
+var ATversion = 'Rabisu v5.2.1',
     atscript = document.getElementById('AutoTrimps-script'),
     basepath = 'https://EnragedRabisu.github.io/AutoTrimps/', //Link to your own Github here if you forked!
     modulepath = 'modules/';
@@ -29,10 +29,16 @@ function initializeAutoTrimps() {
 
 var changelogList = [];
 changelogList.push({
+    date: "05/11/2022",
+    version: "v5.2.1",
+    description: "<b>Trimps v5.8.0</b> Attempt to fix Dynamic Prestige. ",
+    isNew: true
+});
+changelogList.push({
     date: "28/10/2022",
     version: "v5.2.0",
     description: "<b>Trimps v5.8.0</b> Changed U2 Automaps so there might be problems, let me know if there is. Autogiga, Better stance swap, U1 Calc fixed. ",
-    isNew: true
+    isNew: false
 });
 changelogList.push({
     date: "17/08/2022",
