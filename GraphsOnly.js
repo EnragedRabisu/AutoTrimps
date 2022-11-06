@@ -1,6 +1,6 @@
-var ATversion = 'Zek v5.1.0',
+var ATversion = 'Rabisu v5.1.0',
     atscript = document.getElementById('AutoTrimps-script'),
-    basepath = 'https://Zorn192.github.io/AutoTrimps/', //Link to your own Github here if you forked!
+    basepath = 'https://EnragedRabisu.github.io/AutoTrimps/', //Link to your own Github here if you forked!
     modulepath = 'modules/';
 null !== atscript && (basepath = atscript.src.replace(/AutoTrimps2\.js$/, ''));
 
@@ -19,7 +19,7 @@ function ATscriptUnload(a) {
 
 function initializeGraphs() {
     ATscriptLoad('', 'Graphs');
-    debug('AutoTrimps - Zek Graphs Only Fork Loaded!', '*spinner3');
+    debug('AutoTrimps - Rabisu Graphs Only Fork Loaded!', '*spinner3');
 }
 
 function safeSetItems(name,data) {

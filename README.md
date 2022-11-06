@@ -1,4 +1,4 @@
-# AutoTrimps - Zek Fork
+# AutoTrimps - Rabisu Fork
 
 
 
@@ -9,7 +9,7 @@ Discord is a chat program. Come to talk about AutoTrimps, for help, or suggestio
 
 
 ## Current Version - Ongoing Development!
-- Zek Fork. All changes made by Zek using GenBTC as base. Currently up-to-date as of 06/2022.
+- Rabisu Fork. All changes made by Rabisu using Zek as base. Currently up-to-date as of 06/2022.
 
 
 
@@ -20,13 +20,13 @@ Install TamperMonkey:
 https://www.tampermonkey.net/
 
 Step 2:  
-Click this link: https://github.com/Zorn192/AutoTrimps/raw/gh-pages/.user.js  
+Click this link: https://github.com/EnragedRabisu/AutoTrimps/raw/gh-pages/.user.js  
 If clicking the link does not work, copy the contents of user.js into a new script inside tampermonkey.  
 If you are unsure how to do that, copy this:  
 ```
 var script = document.createElement('script');
-script.id = 'AutoTrimps-Zek';
-script.src = 'https://Zorn192.github.io/AutoTrimps/AutoTrimps2.js';
+script.id = 'AutoTrimps-Rabisu';
+script.src = 'https://EnragedRabisu.github.io/AutoTrimps/AutoTrimps2.js';
 script.setAttribute('crossorigin',"anonymous");
 document.head.appendChild(script);
 ```  
@@ -37,7 +37,7 @@ Configure settings. Will NOT work as intended with default settings.
 
 ### Steam
 Step 1:  
-Go to this link to open the mods.js file on Github: <a href="https://github.com/Zorn192/AutoTrimps/blob/gh-pages/mods.js">mods.js</a>  
+Go to this link to open the mods.js file on Github: <a href="https://github.com/EnragedRabisu/AutoTrimps/blob/gh-pages/mods.js">mods.js</a>  
 Then, right click the Raw button, hit Save link as, and save the mods.js file somewhere to your computer where you can find it, like desktop.  
 ![Download mods.js](https://i.imgur.com/opuO6yd.png)  
 
@@ -64,13 +64,13 @@ Install TamperMonkey:
 https://www.tampermonkey.net/
 
 Step 2: 
-Click this link: https://github.com/Zorn192/AutoTrimps/blob/gh-pages/GraphsOnly.user.js  
+Click this link: https://github.com/EnragedRabisu/AutoTrimps/blob/gh-pages/GraphsOnly.user.js  
 If clicking the link does not work, copy the contents of GraphsOnly.user.js into a new script inside tampermonkey.  
 If you are unsure how to do that, copy this:  
 ```
 var script = document.createElement('script');
 script.id = 'AutoTrimps-Graphs';
-script.src = 'https://Zorn192.github.io/AutoTrimps/GraphsOnly.js';
+script.src = 'https://EnragedRabisu.github.io/AutoTrimps/GraphsOnly.js';
 script.setAttribute('crossorigin',"anonymous");
 document.head.appendChild(script);
 ```  
@@ -81,7 +81,7 @@ Enjoy your Graphs!
 
 ### Steam
 Step 1:  
-Go to this link to open the modsGRAPH.js file on Github: <a href="https://github.com/Zorn192/AutoTrimps/blob/gh-pages/modsGRAPH.js">modsGRAPH.js</a>  
+Go to this link to open the modsGRAPH.js file on Github: <a href="https://github.com/EnragedRabisu/AutoTrimps/blob/gh-pages/modsGRAPH.js">modsGRAPH.js</a>  
 Then, right click the Raw button, hit Save link as, and save the modsGRAPH.js file somewhere to your computer where you can find it, like desktop.  
 ![Download mods.js](https://i.imgur.com/opuO6yd.png)  
 
