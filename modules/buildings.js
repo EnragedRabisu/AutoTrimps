@@ -547,7 +547,7 @@ function RbuyBuildings() {
 
  
     //Smithy
-    if (!game.buildings.Smithy.locked && canAffordBuilding('Smithy') && Rhyposhouldwood) {
+    if (!game.buildings.Smithy.locked && canAffordBuilding("Smithy", false, false, false, false, 1) && Rhyposhouldwood) {
         // On quest challenge
         if (game.global.challengeActive == 'Quest') {
             if (smithybought > game.global.world) {smithybought = 0;}

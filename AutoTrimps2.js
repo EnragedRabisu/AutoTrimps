@@ -202,11 +202,13 @@ function mainLoop() {
         if ((getPageSetting('Hshrine') == true) || (getPageSetting('Hdshrine') == 1) || (getPageSetting('Hdshrine') == 2)) autoshrine();
 
         //Buildings
+        if (!usingRealTimeOffline) {
         if (getPageSetting('BuyBuildingsNew') === 0 && getPageSetting('hidebuildings') == true) buyBuildings();
         else if (getPageSetting('BuyBuildingsNew') == 1) {
             buyBuildings();
             buyStorage();
         } else if (getPageSetting('BuyBuildingsNew') == 2) buyBuildings();
+	}
         else if (getPageSetting('BuyBuildingsNew') == 3) buyStorage();
         if (getPageSetting('UseAutoGen') == true && game.global.world > 229) autoGenerator();
 
