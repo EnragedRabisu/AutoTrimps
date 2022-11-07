@@ -31,7 +31,7 @@ var changelogList = [];
 changelogList.push({
     date: "05/11/2022",
     version: "v5.2.1",
-    description: "<b>Trimps v5.8.0</b> Attempt to fix Dynamic Prestige. ",
+    description: "<b>Trimps v5.8.1</b> Attempt to fix Dynamic Prestige. ",
     isNew: true
 });
 changelogList.push({

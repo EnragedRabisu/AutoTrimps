@@ -2448,6 +2448,7 @@ function updateCustomButtons() {
     document.getElementById('RdHeliumHourChallenge').value = autoTrimpSettings.RdHeliumHourChallenge.selected;
     document.getElementById('mapselection').value = autoTrimpSettings.mapselection.selected;
     document.getElementById('Rmapselection').value = autoTrimpSettings.Rmapselection.selected;
+    document.getElementById('Prestige').value = autoTrimpSettings.PrestigeBackup.selected;
     document.getElementById('AutoGoldenUpgrades').value = autoTrimpSettings.AutoGoldenUpgrades.selected;
     document.getElementById('dAutoGoldenUpgrades').value = autoTrimpSettings.dAutoGoldenUpgrades.selected;
     document.getElementById('cAutoGoldenUpgrades').value = autoTrimpSettings.cAutoGoldenUpgrades.selected;
@@ -2494,6 +2495,7 @@ function updateCustomButtons() {
     if (document.getElementById('Prestige').selectedIndex > 11 && game.global.slowDone == false) {
         document.getElementById('Prestige').selectedIndex = 11;
         autoTrimpSettings.Prestige.selected = "Bestplate";
+        autoTrimpSettings.PrestigeBackup.selected = "Bestplate";
     }
 
     for (var setting in autoTrimpSettings) {
